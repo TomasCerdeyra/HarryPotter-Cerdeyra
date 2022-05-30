@@ -17,8 +17,15 @@
                 color: white;
                 font-size: 1.3rem;
                 font-weight: 400;
+                &:focus{
+                    bottom: 5%;
+                }
             }
         }
+    }
+    .ColorLista{
+        color: rgb(142, 76, 76);
+
     }
 
 }

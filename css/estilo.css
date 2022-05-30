@@ -206,7 +206,7 @@ body::before {
   .sectionIndex div {
     background-color: black;
     width: 70%;
-    margin: 2%;
+    margin: 4%;
     height: auto;
     padding: 2%;
     opacity: .95;
@@ -230,7 +230,6 @@ body::before {
 /**** Termina seccion *****/
 /****Empieza Titulo*****/
 .section1 {
-  background-image: url(../assets/FondoMapaMereora2.jpg);
   background-size: 45%;
   animation: movimiento 130s infinite linear alternate;
   grid-area: main;
@@ -489,6 +488,10 @@ body::before {
         color: white;
         font-size: 1.3rem;
         font-weight: 400; }
+        .asideArt ul li a:focus {
+          bottom: 5%; }
+  .asideArt .ColorLista {
+    color: #8e4c4c; }
 
 .SectionArt2 {
   grid-area: sec2;
@@ -880,7 +883,8 @@ body::before {
     .section1 h1 {
       font-size: 3.5vh; }
     .section1 p {
-      font-size: 2vh; }
+      font-size: 2.3vh;
+      width: 95%; }
   /*Termina titulo*/
   /* Empieza lista peliculas*/
   .aside1 div ol {
@@ -903,7 +907,9 @@ body::before {
       border: 1px solid black; }
       .contenedorBotones div i {
         font-size: .9rem; }
-  /* Termina botones*/ }
+  /* Termina botones*/
+  .section1 h1 {
+    font-size: 3vh; } }
 
 @media screen and (max-width: 540px) {
   .ContenedorCarrusel {
