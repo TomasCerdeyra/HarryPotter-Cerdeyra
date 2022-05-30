@@ -1,0 +1,37 @@
+@import "sass2/mixins";
+@import "sass2/extend";
+@import "variables/variables";
+@import "partials/global/header";
+@import "partials/global/footer";
+//imports del Index//
+@import "partials/Index/body";
+@import "partials/Index/mainIndex";
+@import "partials/Index/sectionIndex";
+//imports del Index//
+//imports de etiquetsa en comun de las paginas//
+@import "partials/PaginasEnComun/Titulo.scss";
+@import "partials/PaginasEnComun/mainGlobal.scss";
+@import "partials/PaginasEnComun/Lista.scss";
+@import "partials/PaginasEnComun/Articulos.scss";
+@import "partials/PaginasEnComun/DesplazamientoButton.scss";
+//Termina imports de etiquetsa en comun de las paginas//
+//imports de pagina Libros//
+@import "partials/pagLibros/ListaLibro.scss";
+//Termina imports de pagina Libros//
+
+//imports de pagina Personajes//
+@import "partials/PagPersonajes/carrusel.scss";
+//imports de pagina Personajes//
+
+//imports de pagina Articulos//
+@import "partials/PagArticulos/mainArticulos.scss";
+@import "partials/PagArticulos/Seccion1/Section1.scss";
+@import "partials/PagArticulos/Seccion1/TituloArt.scss";
+@import "partials/PagArticulos/Seccion1/AsideArt.scss";
+@import "partials/PagArticulos/Seccion2/Section2.scss";
+@import "partials/PagArticulos/Seccion2/ArticulosArt.scss";
+//imports de pagina Articulos//
+
+//imports de Responsive//
+@import "partials/responsive/medias";
+//Termina imports de Responsive//

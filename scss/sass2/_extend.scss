@@ -1,0 +1,11 @@
+@import "../variables/variables";
+
+//Extens de pagina Articulos
+.ArticulosArriba {
+    background-color: $transparente-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+//Extens de pagina Articulos

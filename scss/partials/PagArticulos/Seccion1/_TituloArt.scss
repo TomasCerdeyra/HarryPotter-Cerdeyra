@@ -1,0 +1,19 @@
+//Empieza titulo Articulos//
+
+
+
+.h1Art {
+    margin-top: 20%;
+    box-shadow: 0px 0px 10px #000;
+    height: 50px;
+    @include displayFlex_center();
+    div{
+        color: white;
+        font-size:1.1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+
+//Termina titulo Articulos//

@@ -1,0 +1,887 @@
+/*Empieza Media queries Index*/
+
+@media screen and (max-width: 1020px) {
+    .div__ul {
+        justify-content: start;
+
+        li {
+            font-size: 41.6px;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    /****Empieza menu****/
+    .navMenu {
+        margin-top: 0;
+
+        .navMenu__div {
+            justify-content: space-between;
+
+            div {
+                background-color: #000;
+                position: absolute;
+                width: 100%;
+                top: 5rem;
+                right: 0;
+                z-index: 1;
+                align-items: start;
+
+                ul {
+                    li {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        border: 0.5px solid white;
+                        box-shadow: 0 0 5px white;
+
+                        a {
+                            font-size: 4vh;
+                        }
+                    }
+                }
+            }
+
+            .navbar-collapse {
+                height: 115vh;
+                width: 100vw;
+            }
+
+        }
+    }
+
+    /****Termina menu****/
+    /****Empieza titulo****/
+    .mainIndex {
+        .div__titulo {
+            width: 70%;
+        }
+    }
+
+    /****Termina titulo****/
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 6%;
+        height: 70%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Termina menu****/
+}
+
+@media screen and (max-width: 740px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 8%;
+        height: 70%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Termiana menu****/
+}
+
+@media screen and (max-width: 652px) {
+
+    /****Empieza menu****/
+
+    /****termina menu****/
+    /****Empieza titulo index****/
+    .mainIndex {
+        .div__titulo {
+            width: 80%;
+        }
+    }
+
+    /****Empieza titulo****/
+    /****Empieza seccion****/
+    .sectionIndex {
+        .section__div {
+            width: 80%;
+        }
+    }
+
+    /****Termina seccion****/
+}
+
+@media screen and (max-width: 580px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 9%;
+        height: 70%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Termiana menu****/
+    /****Empieza titulo Index****/
+    .mainIndex {
+        .div__titulo {
+            width: 95%;
+            margin-top: 5%;
+        }
+    }
+
+    /****Empieza titulo****/
+    /****Empieza seccion****/
+    .sectionIndex {
+        .section__div {
+            width: 90%;
+
+            p {
+                font-size: 3.5vh;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 11%;
+        height: 70%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Termina menu****/
+    /****Empieza titulo Index****/
+    .mainIndex {
+        .div__titulo {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+
+    /****Termina titulo****/
+    /****Empieza footer****/
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+
+        .footer__div1 {
+            align-items: start;
+
+            .footer__div1-estamosEn {
+                margin-top: 50%;
+            }
+        }
+
+        .footer__div2-contactanos {
+            margin-top: 20%;
+        }
+
+        .div__copy {
+            margin-top: 40%;
+        }
+    }
+
+    /****Empieza footer****/
+}
+
+@media screen and (max-width: 370px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 14%;
+        height: 70%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Empieza titulo Index****/
+    .mainIndex {
+        .div__titulo {
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    }
+
+    /****Empieza seccion Index****/
+    .sectionIndex {
+        align-items: start;
+
+        .section__div {
+            margin-top: 5%;
+
+            p {
+                font-size: 2.4vh;
+            }
+        }
+    }
+
+    /****Termina seccion****/
+}
+
+@media screen and (max-width: 330px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 16%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Empieza titulo Index****/
+    .mainIndex {
+        .div__titulo {
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    /****Empieza seccion Index****/
+    .section__div-p {
+        font-size: 2.2vh;
+    }
+
+    /****Termina seccion****/
+}
+
+@media screen and (max-width: 280px) {
+
+    /****Empieza menu****/
+    /** Empeiza Logo Harry**/
+    .navMenu__div-a {
+        width: 17%;
+        height: 60%;
+    }
+
+    /**Termina Logo Harry**/
+
+    /****Empieza titulo Index****/
+    .mainIndex {
+        .div__titulo {
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    /****Termina titulo Index****/
+}
+
+/*Termina Media queries Index*/
+
+//////////////Empieza medias pagina Cronologia////////////////
+
+@media screen and (max-width: 1300px) {
+
+    /* Empieza lista paginas*/
+    .aside1 {
+        div {
+            margin: 0 2% 0 3%;
+
+            li {
+                margin-top: 5%;
+
+                a {
+                    font-size: 3vh;
+                }
+            }
+        }
+    }
+
+    /* Termina lista paginas*/
+    /*Empieza Peliculas*/
+    .section2 {
+        article {
+            margin-left: 5%;
+        }
+    }
+
+    /*Termina Peliculas*/
+}
+
+@media screen and (max-width: 1250px) {
+
+    /*Empieza main paginas*/
+    .mainPages {
+        grid-template-columns: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*Empieza main paginas*/
+
+    /* Empieza lista paginas*/
+    .aside1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        div {
+            width: 50%;
+            margin-top: 5%;
+
+            li {
+                font-size: 3vh;
+
+                a {
+                    font-size: 3vh;
+                }
+            }
+        }
+    }
+
+    /* Termina lista paginas*/
+    .section2 {
+        #p1 {
+            margin-top: 5%;
+        }
+    }
+
+    /* Empieza boton desplazamiento*/
+    .contenedorBotones {
+        width: 2%;
+        height: 15%;
+    }
+
+    /* Termina boton desplazamiento*/
+}
+
+@media screen and (max-width: 1050px) {
+
+    /*Empieza titulo*/
+    .mainPages {
+        margin-top: 8%;
+    }
+
+    .section1 {
+        margin: 0 13%;
+
+        h1 {
+            font-size: 8vh;
+        }
+
+        p {
+            font-size: 4vh;
+        }
+    }
+
+    /*Termina titulo*/
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Empieza Peliculas*/
+    .section2 {
+        width: 100%;
+        align-items: center;
+
+        article {
+            margin-left: 0;
+            width: 85%;
+
+
+            .article__div1 {
+                padding: 0;
+
+                h2 {
+                    margin: 5%;
+                }
+
+            }
+        }
+
+        .article-derecha {
+            flex-direction: column;
+        }
+
+        .article-izquierda {
+            flex-direction: column;
+        }
+    }
+
+    /* Termina Peliculas */
+
+
+
+    /* Empeza botones desplazamiento*/
+    .contenedorBotones {
+        width: 3%;
+    }
+
+    /* Termina botones desplazamiento*/
+
+}
+
+@media screen and (max-width: 860px) {
+
+    /*Empieza titulo main*/
+    .section1 {
+        h1 {
+            font-size: 6vh;
+        }
+
+        p {
+            font-size: 3vh;
+        }
+    }
+
+    /*Termina titulo main*/
+    /* Empieza lista paginas*/
+    .aside1 {
+        div {
+            width: 70%;
+            height: 70vh;
+
+            ol {
+                margin-left: 8%;
+            }
+        }
+    }
+
+    /* Termina lista paginas*/
+}
+
+@media screen and (max-width: 650px) {
+
+    /*Empieza titulo*/
+    .section1 {
+        margin: 0 13%;
+        height: 110%;
+
+        h1 {
+            font-size: 4vh;
+        }
+
+        p {
+            font-size: 2vh;
+        }
+    }
+
+    /*Termina titulo*/
+    /* Empieza lista peliculas*/
+    .aside1 {
+        div {
+            width: 80%;
+            height: 60vh;
+
+            ol {
+                margin-left: 9%;
+
+                li {
+                    a {
+                        font-size: 2.5vh;
+                    }
+                }
+
+                a {
+                    font-size: 2.5vh;
+                }
+            }
+        }
+    }
+
+    /* Termina lista peliculas*/
+    .section2 {
+        width: 100%;
+        align-items: center;
+
+        article {
+            width: 78%;
+
+
+            .article__div1 {
+
+                h2 {
+                    font-size: 5.5vh;
+                    margin-left: 0
+                }
+
+                p {
+                    font-size: 4vh;
+                }
+
+            }
+
+            /*Empieza contenedor img*/
+            .article__div2 {
+                margin-top: 2% 0 0 0;
+            }
+
+            /*Termina contenedor img*/
+        }
+
+        /* Empieza Peliculas derecha*/
+        .article-derecha {
+            padding-bottom: 0;
+        }
+
+        /* Termina Peliculas derecha*/
+
+        /* Empieza Peliculas izquierda*/
+        .article-izquierda {
+            padding-bottom: 0;
+        }
+
+        /* Termina Peliculas izquierda*/
+    }
+
+    /* Empieza botones*/
+    .contenedorBotones {
+        width: 5%;
+    }
+
+    /* Termina botones*/
+}
+
+@media screen and (max-width: 540px) {
+
+    .section2 {
+        article {
+            .article__div1 {
+                h2 {
+                    font-size: 4.5vh;
+                    margin-left: 0;
+                }
+
+                p {
+                    font-size: 3vh;
+                }
+            }
+
+            .article__div2 {
+                height: 40vh;
+            }
+        }
+    }
+
+    /* Empieza botones*/
+    .contenedorBotones {
+        width: 6%;
+    }
+
+    /* Termina botones*/
+}
+
+@media screen and (max-width: 470px) {
+
+    /* Empieza lista peliculas*/
+    .aside1 {
+        div {
+            width: 90%;
+            height: 50vh;
+
+            ol {
+                margin-left: 10%;
+
+                li {
+                    a {
+                        font-size: 2.3vh;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Termina lista peliculas*/
+
+    /* Empieza botones*/
+    .contenedorBotones {
+        width: 4%;
+        height: 9%;
+
+        div {
+            i {
+                font-size: .9rem;
+            }
+
+        }
+    }
+
+    /* Termina botones*/
+}
+
+@media screen and (max-width: 360px) {
+
+    /*Empieza titulo*/
+    .section1 {
+        margin: 0 5%;
+        height: 110%;
+
+        h1 {
+            font-size: 3.5vh;
+        }
+
+        p {
+            font-size: 2vh;
+        }
+    }
+
+    /*Termina titulo*/
+    /* Empieza lista peliculas*/
+    .aside1 {
+        div {
+            ol {
+                margin-left: 12%;
+            }
+        }
+    }
+
+    /* Termina lista peliculas*/
+    /*Empieza peliculas*/
+    .section2 {
+        article {
+            .article__div1 {
+
+                h2 {
+                    font-size: 3.5vh;
+                    margin-left: 0;
+                }
+
+                p {
+                    font-size: 2.5vh;
+                }
+            }
+
+            .article__div2 {
+                height: 35vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 270px) {
+
+    /* Empieza botones*/
+    .contenedorBotones {
+        height: 9%;
+
+        div {
+            border: 1px solid black;
+            i {
+                font-size: .9rem;
+            }
+
+        }
+    }
+
+    /* Termina botones*/
+
+}
+
+
+
+//////////////Terminaa medias pagina Cronologia////////////////
+
+//////////////Empieza medias pagina Personajes////////////////
+@media screen and (max-width: 540px) {
+
+    //Empieza cambio Fotos Carrusel//
+    .ContenedorCarrusel {
+        width: 25vh;
+    }
+
+    //Termina cambio Fotos Carrusel//
+
+    //Empieza cambio Botones Carrusel//
+    .BotonesCarrusel {
+        height: 44vh;
+    }
+
+    //Termina cambio Botones Carrusel//
+}
+
+@media screen and (max-width: 360px) {
+
+    //Empieza cambio Fotos Carrusel//
+    .ContenedorCarrusel {
+        width: 22vh;
+    }
+
+    //Termina cambio Fotos Carrusel//
+
+    //Empieza cambio Botones Carrusel//
+    .BotonesCarrusel {
+        height: 30vh;
+    }
+
+    //Termina cambio Botones Carrusel//
+}
+
+//////////////Termina medias pagina Personajes////////////////
+
+//////////////Empieza medias pagina Articulos////////////////
+
+@media screen and (max-width: 1030px) {
+    
+    //Empieza titulo, foto y precio//
+    .Article_div1{
+        h2{
+            font-size: .85rem;
+        }
+        div{
+            span{
+                font-size: .85rem;
+            }
+        }
+    }
+    //Termina titulo, foto y precio//
+    //Empieza boton de compra//
+    .Article_div2 {
+        button {
+            a {
+                margin: 0;   
+            }
+        }
+    
+    }
+     //Termina boton de compra//
+    
+}
+@media screen and (max-width: 916px) {
+    //Empieza aside//
+    .asideArt{
+        ul{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    //Termina aside//
+
+}
+@media screen and (max-width: 800px) {
+    //Empieza aside//
+    .asideArt{
+        justify-content: start;
+        ul{
+            li{
+                a{
+                    
+                }
+            }
+        }
+    }
+    //Termina aside//
+    //Empieza boton de compra//
+    .Article_div2 {
+        button {
+            display: flex;
+            a {
+                font-size: .85rem;  
+            }
+        }
+    
+    }
+     //Termina boton de compra//
+
+}
+
+@media screen and (max-width: 740px) {
+    //Empieza main//
+    .mainArticulos{
+        grid-template-areas: "sec1 sec1 sec1 sec1"
+                            "sec2 sec2 sec2 sec2" ;
+    }
+    //Termina main//
+    
+    //Empieza titulo//
+    .h1Art {
+        margin-top: 0;
+        div{
+            color: white;
+            font-size:1.1rem;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    //Termina titulo//
+
+    //Empieza aside//
+    .SectionArt1 {
+        margin: 20px 10% 0 2%;
+    }
+    .asideArt{
+        justify-content: center;
+        ul{
+            li{
+                a{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    //Empieza boton de compra//
+    .Article_div2 {
+        button {
+            a {
+                font-size: .7rem;  
+            }
+        }
+    
+    }
+     //Termina boton de compra//
+}
+
+@media screen and (max-width: 400px) {
+    //Empiezan Articulos//
+    .ArticulosArriba {
+        flex-direction: column;
+        align-items: center;
+        article{
+            width: 100%;
+        }
+    }
+    //Termina Articulos//
+
+    //Empieza titulo, foto y precio//
+    .Article_div1{
+        h2{
+            font-size: 1rem;
+        }
+        div{
+            span{
+                font-size: 1rem;
+            }
+        }
+    }
+    //Termina titulo, foto y precio//
+
+    //Empieza boton de compra//
+    .Article_div2 {
+        button {
+            a {
+                font-size: 1rem;  
+            }
+        }
+    
+    }
+     //Termina boton de compra//
+
+
+}
+
+//////////////Termina medias pagina Articulos////////////////

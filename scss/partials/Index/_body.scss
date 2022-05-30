@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/****Empieza Body*****/
+body{
+    background-size: contain;
+    background-image: url(../assets/fondoposible4.png);
+    background-size: 60%;
+}
+body::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: $ColorFondo-color;
+    z-index: -100;
+}
+
+
+/****Empieza Body index*****/
+.grid{
+    display: grid;
+    grid-template-areas: "head head head"
+                        "main main main"
+                        "main main main"
+                        "section section section"
+                        "footer footer footer";
+}
+/****Termina Body index*****/
+
+/****Termina Body*****/

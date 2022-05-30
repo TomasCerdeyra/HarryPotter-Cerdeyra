@@ -1,0 +1,66 @@
+//mixins global//
+@mixin displayFlex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+//mixins global//
+
+
+//mixis pag articulos//
+@mixin Articulos {
+    
+    //box-shadow: 0px 0px 10px #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0 25px 0;
+    width: 31%;
+}
+@mixin Articulos-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+//mixis pag articulos//
+
+
+/*mixins footer*/
+@mixin footer_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin footer_titulo {
+    color: white;
+    font-weight: 200;
+    font-size: 5vh;
+}
+
+
+@mixin footer_uls {
+    width: 25vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+@mixin footer_redes {
+    font-size: 5.5vh;
+    margin-right: 2vh;
+
+    &:hover {
+        transform: translate(5px);
+        transition: all .5s;
+    }
+}
+
+//*Termina mixins footer*//

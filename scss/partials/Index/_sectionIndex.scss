@@ -1,0 +1,38 @@
+/**** Empeiza seccion *****/
+.sectionIndex {
+    grid-area: section;
+    width: auto;
+    @include displayFlex_center();
+    background-color: $ColorFondo-color;
+
+    div {
+        background-color: black;
+        width: 70%;
+        margin: 2%;
+        height: auto;
+        padding: 2%;
+        opacity: .95;
+        border: 1px solid white;
+        border-radius: 1%;
+        box-shadow: 0 0 30px rgb(114, 113, 70);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+
+        h2{
+            font-family: 'Linden Hill', serif;
+            color: white;
+            font-size: 2em;
+        }
+
+        p {
+            color: rgb(243, 235, 235);
+            font-size: 1.2em;
+            font-weight: 500;
+            font-style:italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+    }
+}
+/**** Termina seccion *****/

@@ -1,0 +1,57 @@
+/****Empieza Lista Cronologica*****/
+
+.aside1 {
+    width: auto;
+    height: 100%;
+    margin-top: 10%;
+
+    div {
+        grid-area: Lista;
+        background-color: #000000e6;
+        border-radius: 2vh;
+        color: white;
+        width: 50vh;
+        height: 80vh;
+        top: 5%;
+        margin-left: 10%;
+        position: sticky;
+        overflow-y: scroll;
+
+        /**Scrooll**/
+
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #ebe2e2e6;
+            border-radius: 5px;
+        }
+
+        /**Termina scrol**/
+
+        ol {
+            padding: 2%;
+            margin-left: 5vh;
+            margin-right: 5vh;
+
+            li {
+                margin-top: 3vh;
+
+                &:hover {
+                    transform: translate(5px);
+                    transition: all .2s;
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 3vh;
+                    font-family: 'League Spartan', sans-serif;
+                    font-weight: 1000;
+                }
+            }
+        }
+    }
+}
+/****Termina Lista Cronologica*****/

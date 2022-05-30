@@ -1,0 +1,11 @@
+/*************************** Empieza Pagina Articulos ***************************/
+
+
+.mainArticulos{
+    display: grid;
+    grid-template-columns: 20% 26.6666666667% 26.6666666667% 26.6666666667%;
+    grid-template-areas: "sec1 sec2 sec2 sec2"
+                        "sec1 sec2 sec2 sec2" ;
+    background-color: #ebebeb84;
+    
+}

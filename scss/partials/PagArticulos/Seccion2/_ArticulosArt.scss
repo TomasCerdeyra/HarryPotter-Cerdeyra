@@ -1,0 +1,75 @@
+//Empieza Articulos//
+
+//Empieza Articulos Arriba//
+.ArticulosArriba {
+    @extend .ArticulosArriba;
+
+    article {
+        @include Articulos;
+
+        img {
+            width: 40%;
+            //box-shadow: 0px 0px 5px #000;
+        }
+    }
+}
+
+//Termina Articulos Arriba//
+
+
+//Empieza Articulos Abajo//
+.ArticulosAbajo {
+    @extend .ArticulosArriba;
+
+    article {
+        @include Articulos;
+
+        img {
+            width: 40%;
+            //box-shadow: 0px 0px 5px #000;
+        }
+    }
+}
+//Termina Articulos Abajo//
+
+//Empieza div titulo y cartelera //
+.Article_div1 {
+    @include Articulos-div;
+
+    h2 {
+        color: rgba(0, 0, 0, .9);
+        font-size: $h2Articulos-font;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    div {
+        span {
+            color: rgba(0, 0, 0, .9);
+            font-size: $PrecioArticulos-font;
+            font-weight: 600;
+        }
+    }
+}
+
+//Termina div titulo y cartelera //
+
+//Empieza Boton para comprar //
+.Article_div2 {
+    margin-top: 5%;
+
+    button {
+        background-color: #3483fa;
+        border-color: transparent;
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+        }
+    }
+
+}
+
+//Termina Boton para comprar //
+//Termina Articulos Abajo//

@@ -1,0 +1,75 @@
+//Empieza Pagina Personajes//
+
+//Empieza Pagina carrusel en articulo//
+
+//Empieza imagenes carrusel //
+.ContenedorCarrusel {
+    //background-color: aqua//;
+    width: 35.5vh;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+
+    li {
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+
+        &:first-child{
+            opacity: 1;
+        }
+
+        &:target{
+            opacity: 1;
+        }
+
+        img {
+            width: inherit;
+            object-fit: cover;
+        }
+
+    }
+
+}
+
+//Empieza imagenes carrusel //
+
+//Empieza botones carrusel //
+.BotonesCarrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    height: 60vh;
+    padding-right: 1.5vh;
+    li{
+        list-style: none;
+        @include displayFlex_center();
+        background-color: rgb(209, 198, 198);
+        margin-right: 20px;
+        width: 5vh;
+        opacity: .8;
+        border-radius: 15% ;
+        box-shadow: 0px 0px 15px white;
+
+        a{
+            width: 100%;
+            font-size: 35%;
+            text-align: center;
+            list-style: none;
+        }
+    }
+}
+
+//Termina botones carrusel //
+
+//Termina Pagina carrusel en articulo//
+
+//Termina Pagina Personajes//

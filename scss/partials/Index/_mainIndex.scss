@@ -1,0 +1,52 @@
+/**** Empieza Titulo*****/
+.mainIndex {
+    grid-area: main;
+    width: 100%;
+    margin-top: 4%;
+    @include displayFlex_center();
+
+    .div__titulo {
+        background-color: black;
+        opacity: 0.92;
+        width: 50%;
+        height: 90%;
+        border: 2px solid white;
+        box-shadow: 0 0 30px white;
+        border-radius: 5%;
+        @include displayFlex_center();
+
+        h1 {
+            color: rgb(245, 234, 234);
+            font-size: 2.7em;
+            font-family: 'Linden Hill', serif;
+            font-weight: 900;
+            margin: 10%;
+            @include displayFlex_center();
+            flex-direction: column;
+
+            span {
+                display: none;
+            }
+            
+
+            a {
+                display: flex;
+                justify-content: center;
+                
+
+                img {
+                    width: 70%;
+
+                    &:hover {
+                        transform: scale(1.15);
+                        transition: all 1s;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+/**** Termina Titulo*****/

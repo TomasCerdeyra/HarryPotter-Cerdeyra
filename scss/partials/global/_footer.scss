@@ -1,0 +1,94 @@
+
+/**** Empeiza footer*****/
+footer {
+    
+    width: 100%;
+    height: auto;
+    background-color: black;
+    grid-area: footer;
+    display: grid;
+    grid-template-areas: "redes1 copyright redes2";
+    height: 60vh;
+
+    /**Empieza redes 1**/
+    .footer__div1 {
+        grid-area: redes1;
+        @include footer_divs();
+        align-items: end;
+
+        .footer__div1-estamosEn {
+            @include footer_titulo();
+        }
+
+        ul {
+            @include footer_uls();
+
+            div {
+                li {
+                    i {
+                        @include footer_redes();
+                    }
+                }
+            }
+
+            .footer__facebook i {
+                color: blue;
+            }
+
+            .footer__instagram i {
+                color: rgb(129, 59, 65);
+            }
+
+            .footer__twitter i {
+                color: #1da1f2;
+            }
+        }
+    }
+
+    .footer__Copy {
+        grid-area: copyright;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        p{
+            color: white;
+        }
+    }
+
+    /**Empieza redes 2**/
+    .footer__div2 {
+        grid-area: redes2;
+        @include footer_divs();
+        align-items: start;
+
+        .footer__div2-contactanos {
+            @include footer_titulo();
+
+        }
+
+        ul {
+            @include footer_uls();
+
+            div {
+                li {
+                    i {
+                        @include footer_redes();
+                    }
+                }
+            }
+
+            .footer__linkedin i {
+                color: blue;
+            }
+
+            .footer__whatsapp i {
+                color: green;
+            }
+
+            .footer__gmanil i {
+                color: red;
+            }
+        }
+    }
+}
+/**** Termina footer*****/

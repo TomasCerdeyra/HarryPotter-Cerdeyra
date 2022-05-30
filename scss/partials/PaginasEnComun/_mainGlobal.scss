@@ -1,0 +1,14 @@
+/*************************** Termina Pagina Index ***************************/
+
+/*************************** Empieza Pagina Cronologia ***************************/
+
+.mainPages {
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 0;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "main main"
+                        "Lista Peliculas";
+    background-color: $ColorFondo-color;
+    margin-bottom: 3%;
+}
