@@ -13,7 +13,7 @@
         padding: 2%;
         opacity: .95;
         border: 1px solid white;
-        border-radius: 1%;
+        border-radius: 10px;
         box-shadow: 0 0 30px rgb(114, 113, 70);
         display: flex;
         justify-content: center;
@@ -23,15 +23,13 @@
         h2{
             font-family: 'Linden Hill', serif;
             color: white;
-            font-size: 2em;
+            font-size: 2rem;
         }
 
         p {
             color: rgb(243, 235, 235);
-            font-size: 1.2em;
-            font-weight: 500;
-            font-style:italic;
-            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-size: 1.1rem;
+            
         }
     }
 }

@@ -211,7 +211,7 @@ body::before {
     padding: 2%;
     opacity: .95;
     border: 1px solid white;
-    border-radius: 1%;
+    border-radius: 10px;
     box-shadow: 0 0 30px #727146;
     display: flex;
     justify-content: center;
@@ -219,13 +219,10 @@ body::before {
     .sectionIndex div h2 {
       font-family: 'Linden Hill', serif;
       color: white;
-      font-size: 2em; }
+      font-size: 2rem; }
     .sectionIndex div p {
       color: #f3ebeb;
-      font-size: 1.2em;
-      font-weight: 500;
-      font-style: italic;
-      font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; }
+      font-size: 1.1rem; }
 
 /**** Termina seccion *****/
 /****Empieza Titulo*****/
@@ -609,7 +606,7 @@ body::before {
   /****Empieza titulo****/
   /****Empieza seccion****/
   .sectionIndex .section__div {
-    width: 80%; }
+    width: 90%; }
   /****Termina seccion****/ }
 
 @media screen and (max-width: 580px) {
@@ -624,12 +621,7 @@ body::before {
   .mainIndex .div__titulo {
     width: 95%;
     margin-top: 5%; }
-  /****Empieza titulo****/
-  /****Empieza seccion****/
-  .sectionIndex .section__div {
-    width: 90%; }
-    .sectionIndex .section__div p {
-      font-size: 3.5vh; } }
+  /****Empieza titulo****/ }
 
 @media screen and (max-width: 480px) {
   /****Empieza menu****/
@@ -674,9 +666,11 @@ body::before {
   .sectionIndex {
     align-items: start; }
     .sectionIndex .section__div {
-      margin-top: 5%; }
+      margin: 5% 0 5% 0; }
+      .sectionIndex .section__div h2 {
+        font-size: 1.5rem; }
       .sectionIndex .section__div p {
-        font-size: 2.4vh; }
+        font-size: .9rem; }
   /****Termina seccion****/ }
 
 @media screen and (max-width: 330px) {
