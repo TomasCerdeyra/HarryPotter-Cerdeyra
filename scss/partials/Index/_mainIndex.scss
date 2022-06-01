@@ -6,12 +6,12 @@
     @include displayFlex_center();
 
     .div__titulo {
-        background-color: black;
+        background-color: $ColorNegro-color;
         opacity: 0.92;
         width: 50%;
         height: 90%;
-        border: 2px solid white;
-        box-shadow: 0 0 30px white;
+        border: 2px solid $ColorBlanco-color;
+        box-shadow: 0 0 30px $ColorBlanco-color;
         border-radius: 5%;
         @include displayFlex_center();
 

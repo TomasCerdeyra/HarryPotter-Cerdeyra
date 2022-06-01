@@ -6,13 +6,13 @@
     background-color: $ColorFondo-color;
 
     div {
-        background-color: black;
+        background-color: $ColorNegro-color;
         width: 70%;
         margin: 4%;
         height: auto;
         padding: 2%;
         opacity: .95;
-        border: 1px solid white;
+        border: 1px solid $ColorBlanco-color;
         border-radius: 10px;
         box-shadow: 0 0 30px rgb(114, 113, 70);
         display: flex;
@@ -22,7 +22,7 @@
 
         h2{
             font-family: 'Linden Hill', serif;
-            color: white;
+            color: $ColorBlanco-color;
             font-size: 2rem;
         }
 

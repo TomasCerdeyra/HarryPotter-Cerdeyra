@@ -9,7 +9,7 @@
         grid-area: Lista;
         background-color: #000000e6;
         border-radius: 2vh;
-        color: white;
+        color: $ColorBlanco-color;
         width: 50vh;
         height: 80vh;
         top: 5%;
@@ -45,7 +45,7 @@
                 
 
                 a {
-                    color: white;
+                    color: $ColorBlanco-color;
                     text-decoration: none;
                     font-size: 3vh;
                     font-family: 'League Spartan', sans-serif;

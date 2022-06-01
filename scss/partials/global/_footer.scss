@@ -4,7 +4,7 @@ footer {
     
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: $ColorNegro-color;
     grid-area: footer;
     display: grid;
     grid-template-areas: "redes1 copyright redes2";
@@ -51,7 +51,7 @@ footer {
         justify-content: center;
         align-items: end;
         p{
-            color: white;
+            color: $ColorBlanco-color;
         }
     }
 

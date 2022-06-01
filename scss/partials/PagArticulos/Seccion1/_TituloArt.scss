@@ -8,7 +8,7 @@
     height: 50px;
     @include displayFlex_center();
     div{
-        color: white;
+        color: $ColorBlanco-color;
         font-size:1.1rem;
         font-weight: 700;
         text-align: center;
